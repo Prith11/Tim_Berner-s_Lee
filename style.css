@@ -8,6 +8,30 @@ body {
     border-radius: 50%;
 }
 
+.Menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.Links{
+float: left;
+    color: greenyellow;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.Links:hover{
+    background-color: gold;
+}
+
 #welcome {
     position: absolute;
     bottom: 0;
@@ -27,7 +51,7 @@ h1 {
 
 #name {
     font-size: 50px;
-    font-family: cursive;
+    font-family: 'Oswald' cursive;
 
 }
 
